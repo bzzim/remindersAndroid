@@ -1,0 +1,29 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Reminders</string>
+    <string name="no_reminders">You don\'t have any reminders</string>
+    <string name="title_label">Reminder title</string>
+    <string name="yesterday">yesterday</string>
+    <string name="tomorrow">tomorrow</string>
+    <string name="today">today</string>
+    <string name="now">now</string>
+    <string name="tomorrow_in">tomorrow in %1$s</string>
+    <string name="yesterday_in">yesterday in %1$s</string>
+    <string name="today_in">today in %1$s</string>
+    <string name="save">Save</string>
+    <string name="date">Date</string>
+    <string name="delete">Delete</string>
+    <string name="unset_alarm">Unset alarm</string>
+    <string name="set_alarm">Set alarm</string>
+    <string name="done">Done</string>
+    <string name="reminder_deleted">Reminder deleted</string>
+    <string name="undo">UNDO</string>
+
+    <plurals name="num_days_ago">
+        <item quantity="one">yesterday</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> days ago</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="one">tomorrow</item>
+        <item quantity="other">in <xliff:g id="count">%d</xliff:g> days</item>
+    </plurals>
+</resources>

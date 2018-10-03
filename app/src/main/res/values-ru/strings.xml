@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Напоминания</string>
+    <string name="no_reminders">У вас нет ни одного напоминания</string>
+    <string name="title_label">Заголовок напоминания</string>
+    <string name="yesterday">вчера</string>
+    <string name="tomorrow">завтра</string>
+    <string name="today">сегодня</string>
+    <string name="now">сейчас</string>
+    <string name="tomorrow_in">завтра в %1$s</string>
+    <string name="yesterday_in">вчера в %1$s</string>
+    <string name="today_in">сегодня в %1$s</string>
+    <string name="save">Сохранить</string>
+    <string name="date">Дата</string>
+    <string name="delete">Удалить</string>
+    <string name="undo">ОТМЕНИТЬ</string>
+    <string name="reminder_deleted">Напоминание удалено</string>
+    <string name="done">Выполнено</string>
+    <string name="set_alarm">Установить сигнал</string>
+    <string name="unset_alarm">Убрать сигнал</string>
+
+    <plurals name="num_days_ago">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> день назад</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> дня назад</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> дней назад</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> дней назад</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="one">через <xliff:g id="count">%d</xliff:g> день</item>
+        <item quantity="few">через <xliff:g id="count">%d</xliff:g> дня</item>
+        <item quantity="many">через <xliff:g id="count">%d</xliff:g> дней</item>
+        <item quantity="other">через <xliff:g id="count">%d</xliff:g> дней</item>
+    </plurals>
+</resources>
